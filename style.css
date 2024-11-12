@@ -1,0 +1,180 @@
+.body{
+    background-color: #f4f4f4;
+    font-size: 16px !important;
+}
+
+.navbar-brand img{
+    width: 250px;
+    margin-left: 40px;
+}
+
+.nav-item{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.nav-link{
+    color: #02435F;
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #ffffff !important;
+    --bs-btn-hover-border-color: #ffffff !important;
+}
+body {
+    color: black; /* Texto em cinza escuro para conforto visual */
+}
+h1 {
+    color: #02435F; /* Azul escuro para o título */
+    font-size: 2rem; /* Tamanho maior do título */
+}
+p {
+    font-size: 23px; /* Aumento do tamanho do parágrafo */
+    line-height: 1.6; /* Maior espaçamento para facilitar a leitura */
+}
+.card {
+    border: 2px solid #02435F; /* Bordas coloridas suaves em azul claro */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+.card-title {
+    color: #02435F; /* Cor de título dos cards em azul escuro */
+}
+h2{
+    color: #02435F;
+}
+
+h5{
+    color: #224352;
+}
+
+.atividade-img {
+    border: 2px solid #02435F; /* Define a cor e a espessura da borda */
+    border-radius: 5px; /* Arredonda os cantos da borda (opcional) */
+}
+
+
+footer h5 {
+    color: white;
+    font-size: 25px;
+}
+
+.separator {
+    border: 0; /* Remove a borda padrão */
+    height: 2px; /* Altura da linha */
+    background-color: #0004ff; /* Cor da linha */
+    margin: 30px 0; /* Margem superior e inferior */
+}
+
+/* Estilo para a seção Conheça a Equipe */
+
+.container.mb-5 h2 {
+    color: #02435F; /* Cor do título */
+    margin-bottom: 1rem; /* Espaço inferior do título */
+}
+
+.jumbotron {
+    background-color: #f8f9fa; /* Cor de fundo do jumbotron */
+    border-radius: 0.5rem; /* Bordas arredondadas */
+    padding: 2rem; /* Espaçamento interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.card {
+    border: none; /* Remove bordas dos cartões */
+    transition: transform 0.2s; /* Efeito de transição ao passar o mouse */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efeito de zoom no card ao passar o mouse */
+}
+
+.card-title {
+    color: #02435F; /* Cor do título do card */
+    font-weight: bold; /* Negrito */
+}
+
+.card-text {
+    color: #000000; /* Cor do texto do card */
+    font-size: 20px;
+}
+
+/* Imagem da coordenadora */
+.img-fluid.rounded-circle {
+    width: 150px; /* Tamanho fixo da imagem */
+    height: 150px; /* Tamanho fixo da imagem */
+    object-fit: cover; /* Cobre a área mantendo a proporção */
+}
+
+.container.mb-5 h2 {
+    color: #02435F; /* Cor do título */
+    margin-top: 35px; /* Adiciona espaço acima do título */
+}
+
+td{
+    font-size: 14px;
+}
+
+.img-coordenadora {
+    width: 150px; /* Defina a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 50%; /* Torna a imagem redonda, opcional */
+}
+
+.high-contrast .container-fluid{
+    background-color: #3e3e3e;
+}
+.high-contrast {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.high-contrast .btn-primary{
+    background-color: #000;
+    color: white;
+    border-color: #000;
+}
+.high-contrast .navbar, .high-contrast .footer {
+    background-color: #222 !important;
+    color: #fff !important;
+}
+
+.high-contrast .card, .high-contrast .card-body, .high-contrast .container {
+    background-color: #333 !important;
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.high-contrast .nav-link, .high-contrast h2, .high-contrast h5, .high-contrast p {
+    color: #fff !important;
+}
+
+.high-contrast .separator {
+    background-color: #fff !important;
+}
+
+.high-contrast .atividade-img{
+    border: 2px solid #000000; /* Define a cor e a espessura da borda */
+    border-radius: 5px; /* Arredonda os cantos da borda (opcional) */
+}
+
+.high-contrast img {
+    filter: grayscale(100%) contrast(150%);
+}
+
+
+.card-img-top {
+    width: 100%;
+    height: 300px; /* Ajuste este valor para o tamanho desejado */
+    object-fit: cover; /* Corta a imagem para preencher o espaço mantendo a proporção */
+}
+
+.high-contrast .table {
+    background-color: #333 !important; /* Fundo escuro para alto contraste */
+    color: #fff !important; /* Texto branco para alto contraste */
+    border-color: #fff !important;
+}
+
+.high-contrast .table th, .high-contrast .table td {
+    border: 1px solid #fff !important; /* Bordas brancas para maior visibilidade */
+}
